@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get in touch for web development services and project inquiries">
+    <title>Contact - Professional Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="index.html">DevLou</a>
+            </div>
+            <button class="mobile-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contact Content -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="fade-in">Get in Touch</h1>
+            <p class="fade-in">Have a project in mind? Let's talk about it</p>
+        </div>
+    </section>
+
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2>Let's Create Something Amazing</h2>
+                    <p>
+                        Whether you have a question, a project idea, or just want to say hello, 
+                        I'd love to hear from you. Fill out the form and I'll get back to you 
+                        as soon as possible.
+                    </p>
+                    
+                    <div class="contact-details">
+                        <div class="detail-item">
+                            <div class="detail-icon">📧</div>
+                            <div>
+                                <h4>Email</h4>
+                                <p>contact@DevLou.com</p>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-icon">📱</div>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+234 (0) 123-456-7890</p>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-icon">📍</div>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Ibadan, Nigeria</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <form id="contactForm" class="contact-form" novalidate>
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input 
+                                type="text" 
+                                id="name" 
+                                name="name" 
+                                required
+                                placeholder="John Doe"
+                            >
+                            <span class="error-message"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input 
+                                type="email" 
+                                id="email" 
+                                name="email" 
+                                required
+                                placeholder="john@example.com"
+                            >
+                            <span class="error-message"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <input 
+                                type="text" 
+                                id="subject" 
+                                name="subject" 
+                                required
+                                placeholder="Project Inquiry"
+                            >
+                            <span class="error-message"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea 
+                                id="message" 
+                                name="message" 
+                                rows="5" 
+                                required
+                                placeholder="Tell me about your project..."
+                            ></textarea>
+                            <span class="error-message"></span>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                        <div id="formStatus" class="form-status"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 DevPortfolio. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="https://github.com/japhar1" aria-label="GitHub">GitHub</a>
+                    <a href="https://www.linkedin.com/in/olusegunbalogun/" aria-label="LinkedIn">LinkedIn</a>
+                    <a href="https://x.com/Balo_Telly" aria-label="Twitter">Twitter</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
