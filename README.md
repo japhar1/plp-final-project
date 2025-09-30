@@ -33,7 +33,7 @@ A modern, responsive portfolio website showcasing web development skills, servic
 3. No build process required - pure HTML/CSS/JS
 
 ## 📦 Deployment
-This project is deployed on [Vercel]
+This project is deployed on [Vercel](https://vercel.com/)
 
 ## 👤 Author
 [Olusegun]
