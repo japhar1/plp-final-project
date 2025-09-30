@@ -25,7 +25,7 @@ A modern, responsive portfolio website showcasing web development skills, servic
 - Clean, maintainable code
 
 ## 🚀 Live Demo
-[Insert your deployment URL here]
+[https://plp-final-project-ashy.vercel.app/]
 
 ## 💻 Local Development
 1. Clone the repository
@@ -33,11 +33,11 @@ A modern, responsive portfolio website showcasing web development skills, servic
 3. No build process required - pure HTML/CSS/JS
 
 ## 📦 Deployment
-This project is deployed on [GitHub Pages/Netlify/Vercel]
+This project is deployed on [Vercel]
 
 ## 👤 Author
-[Your Name]
-- GitHub: [@yourusername](https://github.com/japhar1)
+[Olusegun]
+- GitHub: [@japhar1](https://github.com/japhar1)
 
 ## 📝 License
 MIT License
